@@ -1,12 +1,16 @@
 import React from "react"
-import Navbar from "./components/Navbar"
-import Main from "./components/Main"
+import About from "./components/about"
+import Footer from "./components/footer"
+import Info from "./components/info"
+import Interest from "./components/interest"
 
 export default function App() {
     return (
         <div className="container">
-            <Navbar />
-            <Main />
+            <Info />
+            <About />
+            <Interest />
+            <Footer />
         </div>
     )
 }
